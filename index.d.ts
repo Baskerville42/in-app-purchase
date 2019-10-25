@@ -91,7 +91,7 @@ export type Service = typeof UNITY | typeof APPLE | typeof GOOGLE | typeof WINDO
 export type UnityReceipt = object | string;
 export type AppleReceipt = string;
 export type GoogleReceipt = {
-  date: string;
+  data: string;
   signature: string;
 } | string;
 export type WindowsReceipt = string;
